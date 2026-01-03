@@ -107,9 +107,8 @@ export class JobController {
   static async getOpenJobs(req: Request, res: Response): Promise<void> {
     try {
       const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
-      const offset = req.query.offset ? parseInt(req.query.offset as string) : 0;
 
-      const jobs = await JobModel.findOpenJobs(limit, offset);
+      const jobs = await JobModel.findOpen(limit);
 
       const response: ApiResponse = {
         status: 'success',
@@ -136,7 +135,7 @@ export class JobController {
       const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
       const offset = req.query.offset ? parseInt(req.query.offset as string) : 0;
 
-      const jobs = await JobModel.findByType(type, limit, offset);
+      const jobs = await JobModel.findAll({ type, limit, offset });
 
       const response: ApiResponse = {
         status: 'success',
@@ -163,7 +162,7 @@ export class JobController {
       const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
       const offset = req.query.offset ? parseInt(req.query.offset as string) : 0;
 
-      const jobs = await JobModel.findByDepartment(department, limit, offset);
+      const jobs = await JobModel.findAll({ department, limit, offset });
 
       const response: ApiResponse = {
         status: 'success',
