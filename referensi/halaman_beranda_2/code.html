@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mining Corp - Premier Mining Contractor</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1258e2",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101622",
+            "surface-light": "#ffffff",
+            "surface-dark": "#1a2332",
+            "text-main": "#0d121b",
+            "text-muted": "#4c669a",
+          },
+          fontFamily: {
+            "display": ["Public Sans", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white font-display overflow-x-hidden">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-800 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-sm px-10 py-4 shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-[32px]">diamond</span>
+</div>
+<h2 class="text-text-main dark:text-white text-xl font-black leading-tight tracking-[-0.015em]">Mining Corp</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<div class="flex items-center gap-9">
+<a class="text-text-main dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-semibold leading-normal" href="#">Home</a>
+<a class="text-text-main dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-semibold leading-normal" href="#">Services</a>
+<a class="text-text-main dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-semibold leading-normal" href="#">Sustainability</a>
+<a class="text-text-main dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-semibold leading-normal" href="#">Projects</a>
+<a class="text-text-main dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-semibold leading-normal" href="#">Contact</a>
+</div>
+<button class="flex cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-blue-700 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em] shadow-lg shadow-blue-500/20">
+<span class="truncate">Partner With Us</span>
+</button>
+</nav>
+<button class="md:hidden p-2 text-text-main dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<section class="relative flex flex-col items-center justify-center min-h-[600px] w-full px-4 py-20 bg-cover bg-center bg-no-repeat overflow-hidden" data-alt="Excavator mining operation at sunset with dramatic lighting" style='background-image: linear-gradient(rgba(16, 22, 34, 0.6) 0%, rgba(16, 22, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBsYFlgkKdu8x91TIcI0UexsuVLDwNi6LJ2Xn55i3jYnFwULIBcfF5Zzr3tKZ-f-qTap4MUbtzduwB9zAMt5HXs9zMMFajGD1w9PV7qz1pdfj3JJe_eOb0dCceeKI7jApbp7Y4saxSv-v9wOmqxzoeT8VbOmrGFD9t-SfOq8RZ5rkHHcICOzYJ0W7mvXNSo-E7lA0in6R_z0RQvNP-j95q2uWRa0S_D_jMEhZjGVMOwkDSqJ61aaYVYOZtVCcI-aMO0uGCmtNJzu_w");'>
+<div class="max-w-[960px] w-full text-center z-10 flex flex-col items-center gap-8 animate-fade-in-up">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-bold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-green-500"></span>
+        Operational Excellence Since 1998
+      </div>
+<h1 class="text-white text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-[-0.033em] drop-shadow-xl">
+        Leading the Way in <br class="hidden md:block"/> <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">Sustainable Mining</span>
+</h1>
+<p class="text-gray-200 text-lg md:text-xl font-normal leading-relaxed max-w-2xl drop-shadow-md">
+        Optimizing extraction with unwavering safety standards, maximum efficiency, and cutting-edge fleet technology.
+      </p>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary hover:bg-blue-600 transition-all text-white text-base font-bold shadow-xl shadow-blue-900/30 hover:scale-105 transform duration-200">
+          Explore Services
+        </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 transition-all text-white text-base font-bold hover:scale-105 transform duration-200">
+          View Projects
+        </button>
+</div>
+</div>
+</section>
+<div class="relative -mt-10 z-20 px-4 md:px-10 lg:px-40 pb-10">
+<div class="max-w-[1200px] mx-auto bg-surface-light dark:bg-surface-dark rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 dark:border-gray-800 p-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x-0 md:divide-x divide-gray-200 dark:divide-gray-700">
+<div class="flex flex-col items-center text-center gap-2 p-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">history</span>
+<p class="text-text-main dark:text-white text-3xl md:text-4xl font-black tracking-tight">25+</p>
+<p class="text-text-muted dark:text-gray-400 text-sm font-medium uppercase tracking-wide">Years Experience</p>
+</div>
+<div class="flex flex-col items-center text-center gap-2 p-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">location_on</span>
+<p class="text-text-main dark:text-white text-3xl md:text-4xl font-black tracking-tight">12</p>
+<p class="text-text-muted dark:text-gray-400 text-sm font-medium uppercase tracking-wide">Active Sites</p>
+</div>
+<div class="flex flex-col items-center text-center gap-2 p-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">verified_user</span>
+<p class="text-text-main dark:text-white text-3xl md:text-4xl font-black tracking-tight">99.9%</p>
+<p class="text-text-muted dark:text-gray-400 text-sm font-medium uppercase tracking-wide">Safety Record</p>
+</div>
+<div class="flex flex-col items-center text-center gap-2 p-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">landscape</span>
+<p class="text-text-main dark:text-white text-3xl md:text-4xl font-black tracking-tight">50M+</p>
+<p class="text-text-muted dark:text-gray-400 text-sm font-medium uppercase tracking-wide">Tons Extracted</p>
+</div>
+</div>
+</div>
+</div>
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-12">
+<div class="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-gray-200 dark:border-gray-800 pb-8">
+<div class="flex flex-col gap-2 max-w-2xl">
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest">Core Capabilities</h2>
+<h3 class="text-text-main dark:text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.02em]">End-to-End Mining Solutions</h3>
+<p class="text-text-muted dark:text-gray-400 text-lg">We deliver comprehensive contracting services from exploration to rehabilitation.</p>
+</div>
+<a class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all" href="#">
+          All Services <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group flex flex-col bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 dark:border-gray-800 overflow-hidden">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Massive dump truck hauling overburden" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDGZ4yu0Fp9AgQ7ncg5K4uerkjoQpWU1iOjKrwqRyFK_zINJVJTfsskVTghGbWvS2Gc2BjgHltoB9z6mu6-BnUvHH_1358Ky-TDXGE56Lt5B2FpZp2X0WbfzcQ_-Ss6t89dkqrT9Oe1_SS9PQmMU4iuOMZ1bvpIpgesPKsSg_P03MbXWzb6DcGedgr2noZLdLOuhdGIhxHFBGnQ9RtkwQFwGO3XDkr7EsyxOgLGswfqyi4Nrg0ZoT0Y7Rz_2ZP_m2GxTqUeHfLlXyo");'></div>
+<div class="p-6 flex flex-col gap-4 flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-2">
+<span class="material-symbols-outlined text-2xl">texture</span>
+</div>
+<h4 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Overburden Removal</h4>
+<p class="text-text-muted dark:text-gray-400 text-sm leading-relaxed">Efficient removal of topsoil and rock to access mineral deposits using our fleet of high-capacity excavators.</p>
+<div class="mt-auto pt-4 flex items-center text-primary font-semibold text-sm">
+              Learn more <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 dark:border-gray-800 overflow-hidden">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Coal conveyor belt system" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWYygcbJ4xSEwgjbt2LIIpqo7RoolDkx80sFU169hId2bZ46dYAb1U2Wr5D-LX9P0jv_6KZ14AH0SSfF0XMmYVO1tlKp8lPjjYJwa6kqMe4gpu6MMEIuuN2c1jIppBRa8X5eMndUZKv-UFqQkCQVUWhOceIvdFCY2Fj0dvkyFNnlCeOVHzVcAM7AtAJ8SXbXiOEiPYi3QkepHMxy1PTmFOc1ZUoiONxh5BXoug5HazXb428DUbztYSvcV4mryz1v65uXukBe7o0cs");'></div>
+<div class="p-6 flex flex-col gap-4 flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-2">
+<span class="material-symbols-outlined text-2xl">local_shipping</span>
+</div>
+<h4 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Coal Hauling</h4>
+<p class="text-text-muted dark:text-gray-400 text-sm leading-relaxed">Reliable logistics and transportation from pit to port, ensuring your product reaches the market on schedule.</p>
+<div class="mt-auto pt-4 flex items-center text-primary font-semibold text-sm">
+              Learn more <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-surface-light dark:bg-surface-dark rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 dark:border-gray-800 overflow-hidden">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Rehabilitated mining land with green grass" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJmRDdVp3YQBzNFw9NN5BGlXPgRlvJyy8J4BPRrHXDXYQntRC_M7G0EWYm12rp-m_1J9tVf-P2201EfoQUihaIdYXsr2Mm0iXqYrhX1jxdKwQWqiwoSjfJGBYPJ6I1bSlF5be4r23ICQkVOcsKFppZi58y8_kIuwh3J-j4JDJ1xtxkMt2XLofxB_Ob6QriiC0wEtVRTM3BpmKvZhB0A0ubJhOFw2oj0ZmLaAH7xBhNG8yPV0BORJygINcWE_MowBw-MFncDHxeUbA");'></div>
+<div class="p-6 flex flex-col gap-4 flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-2">
+<span class="material-symbols-outlined text-2xl">forest</span>
+</div>
+<h4 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Site Rehabilitation</h4>
+<p class="text-text-muted dark:text-gray-400 text-sm leading-relaxed">Committed to environmental stewardship, we restore mined land to its natural state through progressive rehabilitation.</p>
+<div class="mt-auto pt-4 flex items-center text-primary font-semibold text-sm">
+              Learn more <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-surface-light dark:bg-surface-dark border-y border-gray-100 dark:border-gray-800">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover" data-alt="Mining engineer inspecting blueprints on site" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxSBJguItAF_SulOqqrCAYrs-SrxN3jTh8HbyatG8fpaWBwh5DwD1y69N3aCY4GyiV2uECsg57ze4vmnjh-0GHk8DW5lCX2SURkEGYgmDtCDRe1iwxkvy4WWjtbdnmAEAiXuSWHHP23CdNigseD56ButaFxgKiKKJQUc1yJg2qdtKtC_vb5SWzyEMr_ikZJ0_hBX5HyCOJB7lo-jB350sCZtutEVXBucZIxoI4Wr9P2v-_L5kbZHY3qM2mVFrauYbb4xBWOyWvMMQ"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl shadow-xl max-w-xs hidden md:block">
+<p class="text-white text-lg font-bold">"Safety is not just a policy, it's our core value."</p>
+<div class="mt-4 flex items-center gap-3">
+<div class="size-8 rounded-full bg-white/20"></div>
+<p class="text-white/80 text-sm">CEO, Mining Corp</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-8">
+<div>
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest mb-2">Why Partner With Us</h2>
+<h3 class="text-text-main dark:text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.02em]">Built on Efficiency,<br/>Driven by Safety</h3>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex gap-4">
+<div class="mt-1 flex-shrink-0 size-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">health_and_safety</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-text-main dark:text-white">Safety First Culture</h4>
+<p class="text-text-muted dark:text-gray-400 mt-2">We maintain rigorous safety protocols exceeding industry standards, ensuring every worker returns home safely.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="mt-1 flex-shrink-0 size-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-text-main dark:text-white">Advanced Technology</h4>
+<p class="text-text-muted dark:text-gray-400 mt-2">Utilizing GPS tracking, automated fleet management systems, and drone surveys for precise operational control.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="mt-1 flex-shrink-0 size-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">eco</span>
+</div>
+<div>
+<h4 class="text-lg font-bold text-text-main dark:text-white">Sustainable Practices</h4>
+<p class="text-text-muted dark:text-gray-400 mt-2">Our operations are designed to minimize environmental impact, with comprehensive water management and land restoration plans.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-10">
+<div class="text-center max-w-2xl mx-auto">
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest mb-2">Our Projects</h2>
+<h3 class="text-text-main dark:text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.02em] mb-4">Featured Operations</h3>
+<p class="text-text-muted dark:text-gray-400">Discover our active mining sites across the archipelago.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[300px]">
+<div class="group relative md:col-span-2 rounded-xl overflow-hidden cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-location="Kalimantan" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHdCFKgOkiwcCg9uu9IIP7YdN3xjHpmEnwY9HHzbB3xDGMXtxBQfCvnvUWQeqJqpI2gsg9Ioc7ib4hg8LZKQOsHMUFDFz1EA_zqRVxQ4roh-7HkNMLpFqOaGhE5ciLI4btK4soH-8lBF9PCSedCf3qxvdTZ9wgApd3OCOOog6F_kQJBpzc1vDvMNoIKDe2sPdRvqx4wfcTjqPSd3NyP_dJSsapNKHLFrXnISzHXvDQfDWiV7qBHhlYeVYXb7WIVhrMLlHuHUT8t-k");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<p class="text-white/80 text-sm font-medium uppercase tracking-wider mb-1">East Kalimantan</p>
+<h4 class="text-white text-2xl font-bold">Mahakam Coal Project</h4>
+</div>
+</div>
+<div class="group relative rounded-xl overflow-hidden cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-location="Sumatra" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCg1YKUdFAPBBXFL7HlRfkfrwxTamPdFoRB-L3i2zZDk3pcSjK9WuUYsj9TBvDBZEs-NSIfPGlyzEFp_xIsuu5PzYpXwJ8Wi4RS3huW78U9NrAVVOk0X3oiLOMP43-5WVD15p0QSmFBHeKAfUBgSFyCDVirJ3BX9y36IL9wQh2FrOlY0-_ZVN9B5yJaPHuHUSqIJaqr0f6YVcJjonUFAmAdk1hj69-frvV9SOiPj0ls1UtwIr_CftSeZHjM2jN62oSAZNblSDRKKik");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<p class="text-white/80 text-xs font-medium uppercase tracking-wider mb-1">South Sumatra</p>
+<h4 class="text-white text-xl font-bold">Bukit Asam Expansion</h4>
+</div>
+</div>
+<div class="group relative rounded-xl overflow-hidden cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-location="Sulawesi" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDfx7i5bnq-wEisRvc_HcvQLxc4os1oUYK1UzzqN1Ysyib2Nf6RdVfcCgeQHWwpl8m650f-c8QgvBB60ZqY9NQ19qzbTY7Yd5ESKdkxwpUBKfQlAWD7ZyKmVTJUbwaS8hypFhePSvnTOSPCfemCkRe0Q5KXM0Ruf8ssJWc3QHGdJZOGhRF8s5pffB0kKE13tx0R-RaWp5ljztGySgej_im7Uzk8VXzZWHQrvzqTX-VpVysZRi22cDNyzZfvhtNHCLahbaAwHvPw99w");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<p class="text-white/80 text-xs font-medium uppercase tracking-wider mb-1">Central Sulawesi</p>
+<h4 class="text-white text-xl font-bold">Nickel Smelter Support</h4>
+</div>
+</div>
+<div class="group relative md:col-span-2 lg:col-span-2 rounded-xl overflow-hidden cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-location="Papua" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCywsrvlATESzQQDFJz0gWYSSrSQqaRHPQ12JyG1Bd9K-NN3KFwQ2V4XxMVeeO9pAzN96TcHXCngxwPwF_tF7NXPMSs1Y4OQY1jlFIMD59JGx30sQiU9VPzrqGB-2UByTOHnOObEI3t47b37jx5MtV79E8Vnhfnr77ZTn1hw8teJoiBisaCC305rhJ0N-La5a7c3XEUToomqYSe7ZE_5eEf2iGEoYwf8mnttXXNR3SIOCrzrDqG8h3bmZSQL4755BWt62lWgRpyhVI");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<p class="text-white/80 text-sm font-medium uppercase tracking-wider mb-1">Papua</p>
+<h4 class="text-white text-2xl font-bold">Highlands Infrastructure</h4>
+</div>
+</div>
+</div>
+<div class="flex justify-center mt-4">
+<button class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-10 px-6 border border-gray-300 dark:border-gray-600 hover:border-primary text-text-main dark:text-white hover:text-primary font-bold transition-all">
+          View All Projects
+        </button>
+</div>
+</div>
+</section>
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-surface-light dark:bg-surface-dark border-t border-gray-100 dark:border-gray-800">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-12">
+<div class="text-center max-w-2xl mx-auto">
+<h2 class="text-primary text-sm font-bold uppercase tracking-widest mb-2">Client Testimonials</h2>
+<h3 class="text-text-main dark:text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.02em]">Trusted by Industry Leaders</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex flex-col gap-6 p-8 bg-background-light dark:bg-background-dark rounded-xl border border-gray-100 dark:border-gray-800 relative shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary/10 text-6xl absolute top-6 right-6 select-none">format_quote</span>
+<div class="flex text-yellow-500 gap-1">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-text-main dark:text-gray-300 text-base leading-relaxed relative z-10 italic">
+          "Mining Corp's adherence to safety protocols is unmatched. They have become an integral part of our operational success in East Kalimantan, consistently delivering on targets while maintaining zero accidents."
+        </p>
+<div class="mt-auto flex items-center gap-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+<div class="size-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-primary font-bold text-sm">BS</div>
+<div>
+<h5 class="text-text-main dark:text-white font-bold text-sm">Budi Santoso</h5>
+<p class="text-text-muted dark:text-gray-500 text-xs font-semibold uppercase">Director, Nusantara Energy</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 bg-background-light dark:bg-background-dark rounded-xl border border-gray-100 dark:border-gray-800 relative shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary/10 text-6xl absolute top-6 right-6 select-none">format_quote</span>
+<div class="flex text-yellow-500 gap-1">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<p class="text-text-main dark:text-gray-300 text-base leading-relaxed relative z-10 italic">
+          "The efficiency of their fleet management system significantly reduced our hauling costs. Their team is professional, responsive, and truly experts in handling large-scale mining logistics."
+        </p>
+<div class="mt-auto flex items-center gap-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+<div class="size-10 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center text-green-700 dark:text-green-300 font-bold text-sm">SJ</div>
+<div>
+<h5 class="text-text-main dark:text-white font-bold text-sm">Sarah Jenkins</h5>
+<p class="text-text-muted dark:text-gray-500 text-xs font-semibold uppercase">VP Projects, Pacific Mining</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 bg-background-light dark:bg-background-dark rounded-xl border border-gray-100 dark:border-gray-800 relative shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary/10 text-6xl absolute top-6 right-6 select-none">format_quote</span>
+<div class="flex text-yellow-500 gap-1">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-text-main dark:text-gray-300 text-base leading-relaxed relative z-10 italic">
+          "Professional, reliable, and sustainable. Their rehabilitation work sets a new standard for the industry in Indonesia. We are proud to partner with a contractor that cares about environmental impact."
+        </p>
+<div class="mt-auto flex items-center gap-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+<div class="size-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center text-purple-700 dark:text-purple-300 font-bold text-sm">HW</div>
+<div>
+<h5 class="text-text-main dark:text-white font-bold text-sm">Hendra Wijaya</h5>
+<p class="text-text-muted dark:text-gray-500 text-xs font-semibold uppercase">Site Manager, Borneo Coal</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 px-4 bg-primary relative overflow-hidden">
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+<div class="max-w-[800px] mx-auto text-center relative z-10 flex flex-col items-center gap-6">
+<h2 class="text-white text-3xl md:text-5xl font-black leading-tight tracking-[-0.03em]">Ready to Optimize Your Mining Operation?</h2>
+<p class="text-blue-100 text-lg md:text-xl font-medium max-w-2xl">Partner with a contractor that prioritizes efficiency, safety, and results. Let's build the future of mining together.</p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4 w-full justify-center">
+<button class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition-transform hover:-translate-y-1">
+          Contact Our Team
+        </button>
+<button class="bg-transparent border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-lg font-bold text-lg transition-transform hover:-translate-y-1">
+          Download Company Profile
+        </button>
+</div>
+</div>
+</section>
+<footer class="bg-surface-dark text-white pt-20 pb-10 px-4 md:px-10 lg:px-40 border-t border-gray-800">
+<div class="max-w-[1200px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-[32px] text-primary">diamond</span>
+<h2 class="text-xl font-bold">Mining Corp</h2>
+</div>
+<p class="text-gray-400 text-sm leading-relaxed">
+            Your trusted partner in sustainable mining solutions. Delivering excellence in excavation, hauling, and site management since 1998.
+          </p>
+<div class="flex gap-4 mt-2">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="text-xs font-bold">LI</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="text-xs font-bold">TW</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="text-xs font-bold">IG</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold text-white mb-2">Company</h4>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">About Us</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Leadership</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Careers</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">News &amp; Press</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Sustainability Report</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold text-white mb-2">Services</h4>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Exploration</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Mine Planning</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Overburden Removal</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Coal Hauling</a>
+<a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Rehabilitation</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold text-white mb-2">Contact Us</h4>
+<div class="flex items-start gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
+<span>Menara Mining, Jl. Jend. Sudirman Kav 10-11, Jakarta 10220, Indonesia</span>
+</div>
+<div class="flex items-center gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">call</span>
+<span>+62 21 555 0123</span>
+</div>
+<div class="flex items-center gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">mail</span>
+<span>contact@miningcorp.co.id</span>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-sm">© 2023 Mining Corp. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-gray-500 hover:text-white text-sm" href="#">Privacy Policy</a>
+<a class="text-gray-500 hover:text-white text-sm" href="#">Terms of Service</a>
+<a class="text-gray-500 hover:text-white text-sm" href="#">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog &amp; Artikel - MiningCo</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1258e2",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem", 
+                        "lg": "0.5rem", 
+                        "xl": "0.75rem", 
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0d121b] dark:text-white flex flex-col min-h-screen overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full bg-white dark:bg-[#1a2232] border-b border-[#e7ebf3] dark:border-[#2a3447]">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-2">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight text-[#0d121b] dark:text-white">MiningCo</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-[#4c669a] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Beranda</a>
+<a class="text-sm font-medium text-[#4c669a] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Layanan</a>
+<a class="text-sm font-medium text-[#4c669a] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Proyek</a>
+<a class="text-sm font-medium text-primary" href="#">Blog</a>
+<a class="text-sm font-medium text-[#4c669a] dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Kontak</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center bg-[#e7ebf3] dark:bg-[#2a3447] rounded-lg h-10 px-3 w-64 focus-within:ring-2 ring-primary/50 transition-all">
+<span class="material-symbols-outlined text-[#4c669a] dark:text-gray-400 text-[20px]">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full text-[#0d121b] dark:text-white placeholder-[#4c669a] dark:placeholder-gray-500" placeholder="Cari artikel..."/>
+</div>
+<button class="md:hidden p-2 text-[#0d121b] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+<div class="mb-10">
+<h1 class="text-3xl md:text-5xl font-black tracking-tight text-[#0d121b] dark:text-white mb-4">
+                Wawasan &amp; Berita Tambang
+            </h1>
+<p class="text-lg text-[#4c669a] dark:text-gray-400 max-w-2xl">
+                Eksplorasi update terbaru dari lapangan, inovasi teknologi, dan wawasan industri untuk masa depan pertambangan yang berkelanjutan.
+            </p>
+</div>
+<div class="mb-10 group cursor-pointer">
+<div class="bg-white dark:bg-[#1e293b] rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-[#e7ebf3] dark:border-[#2a3447]">
+<div class="flex flex-col md:flex-row">
+<div class="md:w-3/5 h-64 md:h-auto bg-cover bg-center relative" data-alt="Modern excavator operating in an open pit mine at sunset" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCHEY-YRHD3wo8rwCPAImPMrH483VBiPfLY9VBakCFQwFw1WXR06JcU1QGhTAOKbus_Wl6uaUYSnWxtjKdXjhew0scm-EarVjPnKuar4JZKyb4WI82iYs94RfQSk7vcqffFWxSitD-tJ_athpZc0lNXGRh2CpAL-m6_w5WjsJDDhT6wHqwKpNXzqN7OX0708ld3wfCmjXMp0CIEhOyt--4Ftm5W9d-SvpvZC88Ltg-m2AGRT-y0zuRYoMEWK87ZsRFkDpPsX4-VhhM');">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 md:hidden to-transparent"></div>
+<span class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                            Featured
+                        </span>
+</div>
+<div class="md:w-2/5 p-6 md:p-8 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-semibold text-primary uppercase tracking-wide">Teknologi</span>
+<span class="w-1 h-1 rounded-full bg-gray-300 dark:bg-gray-600"></span>
+<span class="text-xs text-gray-500 dark:text-gray-400">20 Oktober 2024</span>
+</div>
+<h2 class="text-2xl md:text-3xl font-bold text-[#0d121b] dark:text-white mb-4 leading-tight group-hover:text-primary transition-colors">
+                            Implementasi AI dalam Tambang Terbuka: Studi Kasus 2024
+                        </h2>
+<p class="text-[#4c669a] dark:text-gray-400 mb-6 line-clamp-3">
+                            Bagaimana teknologi otonom dan machine learning mengubah efisiensi operasional dan meningkatkan standar keselamatan di situs Kalimantan Timur secara drastis dalam 12 bulan terakhir.
+                        </p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden" data-alt="Portrait of the author">
+<img alt="Author" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiFCadZpEy9ts1GqF32x411KHa19yGi5X7eVOe0i2bEbk8pg2AK09OJFrQsTxJ-M1JVb59QwEeTg-4RMhwg4H39bh-umWZgd87F9ndXwt3lQT94JepWHG2_0fWXUyHM_ro4k-3kW4fzbrxAGcHOswBz8BaFdhnnxUEJ_CV_KSyzvf6tuPsEjz7ztlNgtX8XVuaUAHh39uiP4Me6sgxrHrSl8D5R79Ya2q_DMlLj_hwk0MlWw8ane1lLi4Tb2tFW20hYx02kyxXSzQ"/>
+</div>
+<div class="text-sm">
+<p class="font-medium text-[#0d121b] dark:text-white">Budi Santoso</p>
+<p class="text-gray-500 dark:text-gray-500 text-xs">Senior Mining Engineer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col xl:flex-row xl:items-center justify-between mb-8 gap-5 bg-white dark:bg-[#1e293b] p-3 rounded-2xl border border-[#e7ebf3] dark:border-[#2a3447] shadow-sm">
+<div class="flex items-center gap-1 overflow-x-auto pb-2 xl:pb-0 px-1 scrollbar-hide w-full xl:w-auto">
+<button class="px-4 py-2.5 rounded-xl bg-primary text-white text-sm font-bold transition-all shadow-md shadow-primary/20">Semua</button>
+<button class="px-4 py-2.5 rounded-xl text-[#4c669a] dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#2a3447] text-sm font-medium transition-colors whitespace-nowrap">Berita</button>
+<button class="px-4 py-2.5 rounded-xl text-[#4c669a] dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#2a3447] text-sm font-medium transition-colors whitespace-nowrap">Insight</button>
+<button class="px-4 py-2.5 rounded-xl text-[#4c669a] dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#2a3447] text-sm font-medium transition-colors whitespace-nowrap">Teknis</button>
+<button class="px-4 py-2.5 rounded-xl text-[#4c669a] dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#2a3447] text-sm font-medium transition-colors whitespace-nowrap">Karir</button>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-3 px-1 w-full xl:w-auto">
+<div class="h-8 w-px bg-gray-200 dark:bg-gray-700 hidden xl:block"></div>
+<div class="relative w-full sm:w-1/2 xl:w-48 group">
+<span class="absolute left-3 top-3 text-gray-400 material-symbols-outlined text-[20px] pointer-events-none group-focus-within:text-primary transition-colors">filter_alt</span>
+<select class="w-full pl-10 pr-8 py-2.5 bg-[#f8f9fc] dark:bg-[#0f172a] border border-[#e7ebf3] dark:border-[#2a3447] rounded-lg text-sm font-medium text-[#0d121b] dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none appearance-none cursor-pointer transition-all">
+<option value="">Semua Topik</option>
+<option value="tech">Teknologi</option>
+<option value="env">Lingkungan</option>
+<option value="ops">Operasional</option>
+<option value="safety">Safety (K3)</option>
+</select>
+<span class="absolute right-3 top-3 text-gray-400 material-symbols-outlined text-[20px] pointer-events-none">expand_more</span>
+</div>
+<div class="relative w-full sm:w-1/2 xl:w-44 group">
+<span class="absolute left-3 top-3 text-gray-400 material-symbols-outlined text-[20px] pointer-events-none group-focus-within:text-primary transition-colors">sort</span>
+<select class="w-full pl-10 pr-8 py-2.5 bg-[#f8f9fc] dark:bg-[#0f172a] border border-[#e7ebf3] dark:border-[#2a3447] rounded-lg text-sm font-medium text-[#0d121b] dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none appearance-none cursor-pointer transition-all">
+<option value="newest">Terbaru</option>
+<option value="popular">Terpopuler</option>
+<option value="oldest">Terlama</option>
+</select>
+<span class="absolute right-3 top-3 text-gray-400 material-symbols-outlined text-[20px] pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<div class="lg:col-span-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Drone view of a large mining site with terraced excavation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu3H0xTU-bnTZHb0gyy_xL05ui_XghE5x4KTfXVxRe4QwM3VBnhuNwnOX06f2rsefRPxuoWdxaOFvGiCkFAIm0AlrUiBlQlesvsaimvdkrj7GRy4sNLEfDY578zDmIQyUBDb-V64Koov8mnn6n8XV9N7cLZ7Y58ZH_9qX-ElF6GHwK85Ib1M5TaQMhvPk0mi6tl8ziCgwF8L2CoGtIxVq_WEL9_sa-R-f7vj1A3pyaS6OADU4A65t6NMrz2znf-cvvHWsvcVtgyfo"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Lingkungan
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">12 Okt 2023 • 5 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Komitmen Reklamasi Berkelanjutan: Menghijaukan Kembali Bekas Tambang
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Strategi dan metodologi terbaru kami dalam memulihkan ekosistem pasca operasi penambangan.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Massive yellow dump truck hauling ore on a dirt road" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqEySPA03fAIs9MIUm5FmRYGX9jBGdgzm-Bx-fC5Hjj0sIYuNZmKrr83IqJn7aPyaf3RaplNAKGcTINWHTQ42aLf1wbjUb-JilhYaMuM2jzpi9cL0cLfLBky5BsFY-PxOCLguoJmhQX1gWqKbzG847D8Ervsnz3vSAtAYs53xqN3ZJ23f0WAKlbex__RykVj5w7nLc5ceWOTmMAznYRNtl4Uma20NLGQz5pHsfVJStpzAXX2MhaIsKkDt6axDldovf_c0nKiGrH04"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Berita
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">08 Okt 2023 • 3 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Update Proyek Ekspansi Q3: Capaian Target Produksi
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Laporan triwulan ketiga menunjukkan peningkatan signifikan dalam volume produksi batu bara.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Engineer inspecting machinery parts with a tablet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJV77bDyWa_3Gu9CmeEy-7urRhiehIGGaIxRRoTq-_ptQN0we2WHoNoG5YGYtFzql8BNQdsdaJoE7RJRkL74JsGEqcsihTYSUEl0cD9_30PBa247OzYvxpaClLlQXlhDB0IliZgSgIMlEcaKuTuSWTCiiwCIPbxVhGfNaFYV8T-9e1aLhIWP29N0Ly_AKxIrf_StT3xMWXidBxbS_hXx0yozQOMHq4RSod0oA4pCJqyrqli3zNhUtxBoW9zPwI2jLU-hIRvK24ToM"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Teknis
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">01 Okt 2023 • 8 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Tips Perawatan Preventive untuk Heavy Haul Truck
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Panduan teknis untuk memperpanjang umur mesin dan mengurangi downtime tidak terencana.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Safety officer giving a briefing to workers in high-vis gear" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzn36jxwoWp38-UW9rSz5vToRJmruHWhADAcB0-jjNaiH7Cgazs69ZBgv2GB6m0noWHVjl1L0lPTVdFkkBz-5j1UORaq_nYcIhNwOOnZeR_8-BthbJuGZ6IIgH0HCuezBDGpcZb_6xvtUg0rjfR8-MH4sI2bCN8tnkBGzeJXIuwINhi7Y53XcrhRnnJlQr4gDhDQnWvVHRppwkIFVeChbXI-TiVXsEGJ2ycxYBetqg28oat0fTWOFBAcxgIsu_v7QvYlpYiCBemqw"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Safety
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">28 Sep 2023 • 4 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Standar Baru Keselamatan Kerja di Site Remote
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Implementasi protokol K3 terbaru yang mengadopsi standar internasional ISO 45001.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Conveyor belt transporting coal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYGeR7C_UDEqi6EBMnJZWGJeO1-YHvZZ009glyTYUcgpiGAaSHy0ZO6QWBpuOrdRaBVhiPFgpEr1Wnk3AsbnMMRCgr3Vi1Rd-EPafJJGX4YWIr6BrTkTzLROoIL0XsLCih6Ao3lv4ipev-rcb5_UsDvByFtYsS4OWDvn8SI5BSDzCk-BsjNCev-4DfK8qe2fvrr2VaKixoxPERHbvAWo0Aig5y3Bi48ZAOmoysuGYBDO9PwUsj1yTfZO6Kh6HCKfJo_UYNWe_QsGs"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Operasional
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">25 Sep 2023 • 6 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Efisiensi Logistik Batu Bara: Dari Pit ke Port
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Optimalisasi rantai pasok untuk mengurangi biaya transportasi dan handling.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="flex flex-col group h-full">
+<div class="rounded-xl overflow-hidden mb-4 relative aspect-[4/3]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Survey drone flying over mining area" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ6iRf57RdHYfqb1maG7sOUSRDQiCsI0jQIFbyhvMIEuE0kFeP2NovuE-m85DpJ43G4WdxNSJiC10R2cAilIHyVewQc1yudI6YZrLNVXqjYpRXV9aMUQ8GCBVlL2hUW3_mKMWb09S1wKqu4JcgrZZhepRHequK77C67F5h8KOBoQRh5EW1EzvoVE3yILHwYNRrbZQN59A2N83wmZVF5o8qbnJNBMCMU3e9m6QhWMokTqU5mLQp49Bz_zDqg46rmiEtcURTt8wQXus"/>
+<div class="absolute top-3 left-3">
+<span class="bg-white/90 dark:bg-black/80 backdrop-blur-sm text-[#0d121b] dark:text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Teknologi
+                                </span>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="text-sm text-[#4c669a] dark:text-gray-400 mb-2">20 Sep 2023 • 5 min read</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2 leading-tight group-hover:text-primary transition-colors">
+                                Pemanfaatan Drone untuk Survey Topografi Presisi Tinggi
+                            </h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm line-clamp-2 mb-4 flex-1">
+                                Meningkatkan akurasi perhitungan volume dan perencanaan tambang dengan teknologi aerial.
+                            </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:underline gap-1" href="#">
+                                Baca Selengkapnya <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+<div class="mt-12 flex justify-center">
+<nav aria-label="Pagination" class="flex items-center gap-1">
+<a class="w-10 h-10 flex items-center justify-center rounded-lg border border-[#e7ebf3] dark:border-[#2a3447] text-gray-500 hover:bg-gray-50 dark:hover:bg-[#1e293b]" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<a class="w-10 h-10 flex items-center justify-center rounded-lg bg-primary text-white font-medium" href="#">1</a>
+<a class="w-10 h-10 flex items-center justify-center rounded-lg border border-[#e7ebf3] dark:border-[#2a3447] text-[#0d121b] dark:text-white hover:bg-gray-50 dark:hover:bg-[#1e293b]" href="#">2</a>
+<a class="w-10 h-10 flex items-center justify-center rounded-lg border border-[#e7ebf3] dark:border-[#2a3447] text-[#0d121b] dark:text-white hover:bg-gray-50 dark:hover:bg-[#1e293b]" href="#">3</a>
+<span class="w-10 h-10 flex items-center justify-center text-gray-400">...</span>
+<a class="w-10 h-10 flex items-center justify-center rounded-lg border border-[#e7ebf3] dark:border-[#2a3447] text-gray-500 hover:bg-gray-50 dark:hover:bg-[#1e293b]" href="#">
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+</nav>
+</div>
+</div>
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-white dark:bg-[#1e293b] p-6 rounded-xl shadow-[0_0_4px_rgba(0,0,0,0.05)] border border-[#e7ebf3] dark:border-[#2a3447]">
+<h4 class="text-lg font-bold text-[#0d121b] dark:text-white mb-4">Cari Topik</h4>
+<div class="relative">
+<input class="w-full pl-4 pr-10 py-3 bg-[#f8f9fc] dark:bg-[#0f172a] border border-[#e7ebf3] dark:border-[#2a3447] rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all" placeholder="Kata kunci..." type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-gray-400">search</span>
+</div>
+</div>
+<div class="bg-white dark:bg-[#1e293b] p-6 rounded-xl shadow-[0_0_4px_rgba(0,0,0,0.05)] border border-[#e7ebf3] dark:border-[#2a3447]">
+<div class="flex items-center justify-between mb-4">
+<h4 class="text-lg font-bold text-[#0d121b] dark:text-white">Filter Kategori</h4>
+<button class="text-xs text-primary font-medium hover:underline">Reset</button>
+</div>
+<div class="space-y-3">
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input checked="" class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">Semua Artikel</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">142</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">Berita Korporat</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">24</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">Insight &amp; Tren</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">18</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">Safety &amp; K3</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">32</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">Teknologi &amp; Inovasi</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">15</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="peer h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800" type="checkbox"/>
+</div>
+<span class="flex-1 text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary transition-colors">ESG &amp; Lingkungan</span>
+<span class="text-xs text-gray-400 bg-gray-100 dark:bg-[#0f172a] px-2 py-0.5 rounded-full">12</span>
+</label>
+</div>
+</div>
+<div class="bg-primary/5 dark:bg-[#1e293b] p-6 rounded-xl border border-primary/10 dark:border-[#2a3447]">
+<div class="flex items-center gap-3 mb-3">
+<div class="bg-primary/10 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<h4 class="text-lg font-bold text-[#0d121b] dark:text-white">Newsletter</h4>
+</div>
+<p class="text-sm text-[#4c669a] dark:text-gray-400 mb-4">
+                        Dapatkan ringkasan mingguan tentang wawasan industri pertambangan langsung ke inbox Anda.
+                    </p>
+<form class="flex flex-col gap-3">
+<input class="w-full px-4 py-2 bg-white dark:bg-[#0f172a] border border-[#e7ebf3] dark:border-[#2a3447] rounded-lg text-sm focus:ring-2 focus:ring-primary outline-none" placeholder="Email Anda" type="email"/>
+<button class="w-full bg-primary hover:bg-blue-700 text-white font-medium py-2 rounded-lg transition-colors text-sm" type="button">
+                            Berlangganan
+                        </button>
+</form>
+</div>
+<div class="bg-white dark:bg-[#1e293b] p-6 rounded-xl shadow-[0_0_4px_rgba(0,0,0,0.05)] border border-[#e7ebf3] dark:border-[#2a3447]">
+<div class="flex items-center justify-between mb-6">
+<h4 class="text-lg font-bold text-[#0d121b] dark:text-white">Artikel Populer</h4>
+<span class="material-symbols-outlined text-gray-400">trending_up</span>
+</div>
+<div class="flex flex-col gap-5">
+<a class="flex gap-4 group" href="#">
+<div class="w-20 h-20 shrink-0 rounded-lg overflow-hidden bg-gray-100">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform" data-alt="Blueprint of mining structure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxw1xXlvS9ipbOoX1jJNKbjQde4GBn99ZRYDi1ueqtiyn1Wgw0RaDWV_89S3XWNMkd-lGkR8BxGbNJZ34KDJqhWAYA72xabKGjbR7f-QUk5LdLj5H6lk1rH8Gh_Cm6WJNlgW4phOq1Ysl02Gy0QYvkp46hkO5GenwiKRHD2Z2XrBunRIb35FCYw3zV2_NjxOE8USnuHJtznisZHA4Tk9jv0ltpMZNI5CD6wDJP11PWNejyDjHLI-H8EnSg8njaNXVvsqyv8Ts6rik"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-[#0d121b] dark:text-white leading-snug group-hover:text-primary transition-colors mb-1">
+                                    Analisis Harga Batubara Global Q4 2023
+                                </h5>
+<p class="text-xs text-gray-500">14k Views</p>
+</div>
+</a>
+<a class="flex gap-4 group" href="#">
+<div class="w-20 h-20 shrink-0 rounded-lg overflow-hidden bg-gray-100">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform" data-alt="Close up of mineral ore" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXY04pv6yUWm_EAexahRReSu73eMy6soqsAKhZnvFch9FHlwuQC2cN3EjmLJ1g6-nFn1aX1tfZs4jkL9UQlMYJBNBuKR5Dtgm9lelHqNyAcKMFTD8oJc7EON0kZP_W1Lr2kTiJNpyipWN2cXyaJzKWFMpNVsI1hqnjzqoiX3riPtII6kO_EYZQwf63ITew-4xNDWBCt-AKA_j0r8kdrkSHdLVKSVy48JdBsN9LwtwpyFbZh-dLJPO0idEoZDXje7ypsi_hMnQMLC8"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-[#0d121b] dark:text-white leading-snug group-hover:text-primary transition-colors mb-1">
+                                    Teknologi Pengolahan Mineral Langka
+                                </h5>
+<p class="text-xs text-gray-500">9.2k Views</p>
+</div>
+</a>
+<a class="flex gap-4 group" href="#">
+<div class="w-20 h-20 shrink-0 rounded-lg overflow-hidden bg-gray-100">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform" data-alt="Excavator at night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCCW6GgfQx_uLUqVdBSKn3hFZjbzZH7tmaU6V3wLHUcW8QGT6uDa7d2UdNzhdWEcfUlCOu9Ub-9sGeJzK9V6rkFSPVbgExxWnj5eWo30y69HmLJwAhvzug_DytPZ5yx_ZlNPV8znXpXBl0d-7gzwyMwl5FE4iIS29MYix0rKiCm3VYDnqGRDLrSOyhUyJ7kOXIP1B1b0tjIXPf9UljHUyd8u2sxB0ktWH7OFIFzDtV4HMXkrZdu2qlV1nXqCxPVIOkNI-lUA8PpDY"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-[#0d121b] dark:text-white leading-snug group-hover:text-primary transition-colors mb-1">
+                                    Manajemen Shift Kerja Tambang yang Efektif
+                                </h5>
+<p class="text-xs text-gray-500">8.5k Views</p>
+</div>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-[#1e293b] p-6 rounded-xl shadow-[0_0_4px_rgba(0,0,0,0.05)] border border-[#e7ebf3] dark:border-[#2a3447]">
+<h4 class="text-lg font-bold text-[#0d121b] dark:text-white mb-4">Tags</h4>
+<div class="flex flex-wrap gap-2">
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#Batubara</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#Nickel</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#ESG</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#DigitalMining</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#HeavyEquipment</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#SafetyFirst</a>
+<a class="px-3 py-1 bg-[#f0f2f5] dark:bg-[#2a3447] text-xs font-medium text-gray-600 dark:text-gray-300 rounded hover:bg-primary hover:text-white transition-colors" href="#">#Karir</a>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<footer class="bg-white dark:bg-[#1a2232] border-t border-[#e7ebf3] dark:border-[#2a3447] py-12 mt-12">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight text-[#0d121b] dark:text-white">MiningCo</h2>
+</div>
+<p class="text-sm text-[#4c669a] dark:text-gray-400">
+                    Mitra terpercaya dalam solusi pertambangan berkelanjutan dan efisien sejak 2005.
+                </p>
+</div>
+<div>
+<h3 class="font-bold text-[#0d121b] dark:text-white mb-4">Perusahaan</h3>
+<ul class="space-y-2 text-sm text-[#4c669a] dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">Tentang Kami</a></li>
+<li><a class="hover:text-primary" href="#">Karir</a></li>
+<li><a class="hover:text-primary" href="#">Investor</a></li>
+<li><a class="hover:text-primary" href="#">Kontak</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-[#0d121b] dark:text-white mb-4">Layanan</h3>
+<ul class="space-y-2 text-sm text-[#4c669a] dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">Eksplorasi</a></li>
+<li><a class="hover:text-primary" href="#">Konstruksi Tambang</a></li>
+<li><a class="hover:text-primary" href="#">Manajemen Operasional</a></li>
+<li><a class="hover:text-primary" href="#">Reklamasi</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-[#0d121b] dark:text-white mb-4">Hubungi Kami</h3>
+<ul class="space-y-2 text-sm text-[#4c669a] dark:text-gray-400">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+                        Jakarta, Indonesia
+                    </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">call</span>
+                        +62 21 555 0123
+                    </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+                        info@miningco.id
+                    </li>
+</ul>
+</div>
+</div>
+<div class="border-t border-[#e7ebf3] dark:border-[#2a3447] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-[#4c669a] dark:text-gray-400">
+<p>© 2024 MiningCo. All rights reserved.</p>
+<div class="flex gap-6 mt-4 md:mt-0">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

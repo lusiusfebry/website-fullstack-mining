@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Layanan Kami - MiningCorp</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS with Config -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1258e2",
+              "background-light": "#f8f9fc",
+              "background-dark": "#101622",
+            },
+            fontFamily: {
+              "display": ["Public Sans", "sans-serif"],
+              "body": ["Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      body {
+        font-family: 'Public Sans', sans-serif;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navbar -->
+<header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-[#101622]/90 backdrop-blur-md border-b border-solid border-b-[#e7ebf3] dark:border-gray-800">
+<div class="layout-container flex justify-center">
+<div class="w-full max-w-[1280px] px-4 md:px-10 py-3 flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-4 text-[#0d121b] dark:text-white">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">MiningCorp</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Beranda</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Tentang Kami</a>
+<a class="text-primary text-sm font-bold leading-normal" href="#">Layanan</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Proyek</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Kontak</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-blue-700 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Minta Penawaran</span>
+</button>
+</div>
+<div class="lg:hidden flex items-center">
+<span class="material-symbols-outlined text-2xl cursor-pointer">menu</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Breadcrumbs -->
+<div class="w-full bg-white dark:bg-[#101622] border-b border-[#e7ebf3] dark:border-gray-800">
+<div class="flex justify-center">
+<div class="w-full max-w-[1280px] px-4 md:px-10 py-3">
+<div class="flex flex-wrap gap-2 text-sm">
+<a class="text-[#4c669a] dark:text-gray-400 hover:text-primary" href="#">Beranda</a>
+<span class="text-[#4c669a] dark:text-gray-400">/</span>
+<span class="text-[#0d121b] dark:text-white font-medium">Layanan Kami</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<div class="w-full flex justify-center py-6 md:py-10">
+<div class="w-full max-w-[1280px] px-4 md:px-10">
+<div class="relative overflow-hidden rounded-2xl bg-cover bg-center bg-no-repeat min-h-[480px] flex items-center justify-center text-center" data-alt="Massive open pit mine aerial view with heavy machinery" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDkow5hdkj0aHRO-vs3H26jOCAdeB7pnqzVc01WEZ579cSVN8q0XgEy8mNKhXUDhWxIY8AuXgWDNW280jIxmosOE2srzi_TjKC4MsHNP1hlmkmeS_S_m61KmCal-8RhO2tw7FoPKAWqBU1dBkcf9GEmF9JpuObyhjFfZsfiUzKWyFbJkb-G5XsxWLNesn9NNl2zDWmZYK4NPaFOdTgrGlowT4DjY6B-Fz1npdlsDYMBeXqkG6Cuzx8yC169pnOYjoOVQtR7sld9T60");'>
+<div class="relative z-10 flex flex-col items-center max-w-[800px] p-6 gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm border border-white/10">
+<span class="material-symbols-outlined text-white text-sm">engineering</span>
+<span class="text-white text-xs font-bold tracking-wide uppercase">Mitra Terpercaya Sejak 1998</span>
+</div>
+<h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.02em]">
+                            Solusi Pertambangan Terintegrasi &amp; Berkelanjutan
+                        </h1>
+<p class="text-gray-200 text-base md:text-lg font-normal leading-relaxed max-w-[600px]">
+                            Memberikan keunggulan operasional dalam setiap tahap siklus pertambangan, dari eksplorasi awal hingga reklamasi lahan pascatambang dengan standar K3LH tertinggi.
+                        </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4">
+<button class="flex items-center justify-center rounded-lg h-12 px-8 bg-primary hover:bg-blue-600 transition-colors text-white text-base font-bold leading-normal">
+                                Pelajari Lebih Lanjut
+                            </button>
+<button class="flex items-center justify-center rounded-lg h-12 px-8 bg-white/10 hover:bg-white/20 backdrop-blur-md transition-colors text-white text-base font-bold leading-normal border border-white/20">
+                                Lihat Portofolio
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Stats Section -->
+<div class="w-full flex justify-center pb-10">
+<div class="w-full max-w-[1280px] px-4 md:px-10">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 border-y border-gray-200 dark:border-gray-800 py-8">
+<div class="flex flex-col items-center text-center">
+<span class="text-primary text-3xl md:text-4xl font-black">25+</span>
+<span class="text-[#4c669a] dark:text-gray-400 text-sm font-medium mt-1">Tahun Pengalaman</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<span class="text-primary text-3xl md:text-4xl font-black">150+</span>
+<span class="text-[#4c669a] dark:text-gray-400 text-sm font-medium mt-1">Proyek Selesai</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<span class="text-primary text-3xl md:text-4xl font-black">10M+</span>
+<span class="text-[#4c669a] dark:text-gray-400 text-sm font-medium mt-1">Jam Kerja Aman</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<span class="text-primary text-3xl md:text-4xl font-black">500+</span>
+<span class="text-[#4c669a] dark:text-gray-400 text-sm font-medium mt-1">Armada Alat Berat</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Services Section -->
+<div class="w-full flex justify-center py-10 bg-white dark:bg-[#151c2b]">
+<div class="w-full max-w-[1280px] px-4 md:px-10 flex flex-col gap-12">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+<div class="max-w-[700px]">
+<h2 class="text-[#0d121b] dark:text-white text-3xl md:text-4xl font-bold leading-tight mb-4">Lingkup Keahlian Kami</h2>
+<p class="text-[#4c669a] dark:text-gray-400 text-lg leading-relaxed">
+                            Kami menyediakan berbagai layanan khusus yang disesuaikan dengan kebutuhan industri pertambangan modern, mengutamakan efisiensi dan keselamatan.
+                        </p>
+</div>
+<a class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Lihat Brosur Lengkap <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1: Eksplorasi -->
+<div class="group flex flex-col bg-background-light dark:bg-[#101622] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary/20">
+<div class="h-56 overflow-hidden relative">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors z-10"></div>
+<img alt="Geologist examining rock samples in the field" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARtFul4T-Ty2F8rzVI_X6_5jx_6RfYmwujF7s7yzvYqrnO_TJltGgH2crQraY1DAMuEwxoZXCKdHvznIKdUWJPOY-wxnBbsa9z72pLBkf2Vcth5p5quDxDhZqduzBr_LxsKm3p1qBfrTH3RVfevYpS5Ng4cs-ljmvGw8v5Zb1AsC8NXc145nrdbTlBQbp6JrCZTROXsDkOx8w6CmO2OJNWi8dkk41AoqjZ85e10eYA5B8Fb_9xxYp48HeWL0b1LGJBTYYIdkDhUkQ"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">landscape</span>
+</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2">Eksplorasi &amp; Geologi</h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                Layanan survei geologi komprehensif termasuk pemetaan, pengambilan sampel, dan analisis data untuk memastikan potensi cadangan mineral yang akurat.
+                            </p>
+<ul class="space-y-2 mb-6">
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Studi Kelayakan
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Pemetaan Topografi
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Pengeboran Eksplorasi
+                                </li>
+</ul>
+<a class="inline-flex items-center text-primary font-bold text-sm hover:underline" href="#">
+                                Detail Layanan <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Operasi Penambangan -->
+<div class="group flex flex-col bg-background-light dark:bg-[#101622] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary/20">
+<div class="h-56 overflow-hidden relative">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors z-10"></div>
+<img alt="Heavy excavator loading dump truck in mine" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt2vPKM2y5jVhJT0G5xiyFWS5ZVZLPjhZ7EB1pUdSEC4V5WBWT6UPq4KilNQhIVN9iXgdwrhnLoMlPBOXCgIxCyOy2q3_LmUy4VxXLSYnwpgflrCMlmSvPNspGRANHZXFzA8-kNna85vxVcjT5PkeLc2rP2yAVDuesWRGL_b3oz1fW3lkreooqAaLQoCIpGk0GK8bALRTbWKPe4EMIEhi8MDPoOT2Rubt6Mxob7s0rqt4s1xUP_mOTQEdc0PZXhGXYYHB-zuy5KOU"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">construction</span>
+</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2">Operasi Penambangan</h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                Eksekusi penambangan end-to-end mulai dari *land clearing*, pemindahan *overburden*, hingga ekstraksi bijih mineral (ore getting).
+                            </p>
+<ul class="space-y-2 mb-6">
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Manajemen Armada Alat Berat
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Pemindahan Tanah Pucuk
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Konstruksi Jalan Tambang
+                                </li>
+</ul>
+<a class="inline-flex items-center text-primary font-bold text-sm hover:underline" href="#">
+                                Detail Layanan <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Pengolahan Mineral -->
+<div class="group flex flex-col bg-background-light dark:bg-[#101622] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary/20">
+<div class="h-56 overflow-hidden relative">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors z-10"></div>
+<img alt="Industrial mineral processing plant conveyor belts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5VUOrHbFC7-VDVRccpEC8e_uKj8ur7OP0WcuVXl1lUmAkehPivq0sQi7HmmtiepQDYZNP5keFa59_pua2zYlq0DH97qACpXsyRTs3G7jOai4pMFMVfFvny9PUSoW2sFiC9-k4pIm065hPkKoi4RqgzjP7krhhRxQ3d9SAE5fgSY_NbigDoEF-OQLShyJ7sjD690aMnjcU1jkz55rP9EwdvkSjGSI0R9p9huYlLF3rFfqM9x3Xj2IfmH4otszD24-IYRBe_t_QdYg"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">factory</span>
+</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2">Pengolahan Mineral</h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                Fasilitas pengolahan modern untuk meningkatkan kadar mineral melalui proses crushing, washing, dan pemurnian yang efisien.
+                            </p>
+<ul class="space-y-2 mb-6">
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Crushing &amp; Screening
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Manajemen Stockpile
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Kendali Mutu (QC)
+                                </li>
+</ul>
+<a class="inline-flex items-center text-primary font-bold text-sm hover:underline" href="#">
+                                Detail Layanan <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Card 4: Konsultasi & K3LH -->
+<div class="group flex flex-col bg-background-light dark:bg-[#101622] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary/20">
+<div class="h-56 overflow-hidden relative">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors z-10"></div>
+<img alt="Mining engineers discussing plans with safety helmets on table" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD44xqs0UcJwC8coy5zV8A0aoPaGfV_leOIxl07gqnRpIMz_BUm2g4ghFjCJJkP4z0-l5hpP_4cA4itZYd6EIABwO6RocvSpM_w02BEX4baqem4sKKaKNTKIhLO5EytiWAULs1zmuMMDydGAQ4fbn67erIbyKu_kSP2kk7oUa3_HbzEJNL1Vtd9KzuSHcHj6uSZnHMXbjYEKkd37yp7r-D7SAHzFSOKB20yPQtutEQqw7eaC3ZP5jQf3MkasqUNq6n273KJkWI-w2A"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">safety_check</span>
+</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2">Konsultasi &amp; Reklamasi</h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                Perencanaan tambang jangka panjang, kepatuhan lingkungan (AMDAL), dan manajemen keselamatan kerja serta reklamasi lahan pascatambang.
+                            </p>
+<ul class="space-y-2 mb-6">
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Perencanaan Tambang
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Manajemen Lingkungan
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Audit Keselamatan (SMK3)
+                                </li>
+</ul>
+<a class="inline-flex items-center text-primary font-bold text-sm hover:underline" href="#">
+                                Detail Layanan <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Card 5: Logistik & Transportasi -->
+<div class="group flex flex-col bg-background-light dark:bg-[#101622] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary/20">
+<div class="h-56 overflow-hidden relative">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors z-10"></div>
+<img alt="Haul trucks transporting ore on mining road" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDF2PTEjblbvFZkAQ81zbYNTKWv4fNAHZEYvXOKnqcnyl_EpbMLui9h-o-Rg3Xcon0U6tzQyEHTXI48qG2HeRPD_JwIkKt1j5SwZyJnMkgTtBX5e77OKOZ5dVFtJPyc5-bd8AXsh9fcgRkAjSda6_s4wohz77fnuHKwV4AjvjVsYCnUN6ttjO-qTpvcSm_LioyDZkpUSfGoh8-INKySzAcwZul5v9LbC-v29_Y5e1w9xfEEo7Em_HfvqDH4prJmfm4V62l7XRt5Itg"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-2xl">local_shipping</span>
+</div>
+<h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-2">Logistik &amp; Hauling</h3>
+<p class="text-[#4c669a] dark:text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                Solusi transportasi mineral dari pit ke port (pit-to-port) yang terintegrasi, termasuk manajemen pelabuhan dan pengapalan.
+                            </p>
+<ul class="space-y-2 mb-6">
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Manajemen Hauling Road
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Port Management
+                                </li>
+<li class="flex items-center gap-2 text-sm text-[#0d121b] dark:text-gray-300">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span> Barging &amp; Shipping
+                                </li>
+</ul>
+<a class="inline-flex items-center text-primary font-bold text-sm hover:underline" href="#">
+                                Detail Layanan <span class="material-symbols-outlined text-sm ml-1">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- CTA Box -->
+<div class="flex flex-col bg-primary rounded-xl overflow-hidden p-8 justify-center items-center text-center relative">
+<div class="absolute top-0 right-0 p-12 opacity-10">
+<span class="material-symbols-outlined text-9xl text-white">handshake</span>
+</div>
+<h3 class="text-2xl font-bold text-white mb-4 relative z-10">Butuh Solusi Khusus?</h3>
+<p class="text-white/80 text-sm leading-relaxed mb-8 max-w-xs relative z-10">
+                            Kami siap merancang strategi pertambangan yang sesuai dengan kebutuhan spesifik situs Anda. Diskusikan dengan tim ahli kami.
+                        </p>
+<button class="w-full bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors relative z-10">
+                            Hubungi Konsultan Kami
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Detailed Process / Technology Section -->
+<div class="w-full flex justify-center py-16 bg-background-light dark:bg-[#101622]">
+<div class="w-full max-w-[1280px] px-4 md:px-10">
+<div class="flex flex-col lg:flex-row gap-12 items-center">
+<div class="flex-1 flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm">
+<span class="w-8 h-[2px] bg-primary"></span>
+                            Teknologi Kami
+                        </div>
+<h2 class="text-[#0d121b] dark:text-white text-3xl md:text-4xl font-bold leading-tight">
+                            Smart Mining System untuk Efisiensi Maksimal
+                        </h2>
+<p class="text-[#4c669a] dark:text-gray-400 text-lg leading-relaxed">
+                            Kami mengintegrasikan teknologi terkini dalam setiap operasi untuk memantau produktivitas secara real-time, meminimalkan downtime, dan memastikan keselamatan kru di lapangan.
+                        </p>
+<div class="flex flex-col gap-4 mt-4">
+<!-- Accordion Item 1 -->
+<div class="border border-[#e7ebf3] dark:border-gray-700 rounded-lg p-4 bg-white dark:bg-[#151c2b] shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-10 rounded-full bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">satellite_alt</span>
+</div>
+<div>
+<h4 class="font-bold text-[#0d121b] dark:text-white text-lg">GPS &amp; Fleet Management System</h4>
+<p class="text-sm text-[#4c669a] dark:text-gray-400 mt-1">Pelacakan posisi alat berat real-time untuk optimalisasi siklus hauling.</p>
+</div>
+</div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="border border-[#e7ebf3] dark:border-gray-700 rounded-lg p-4 bg-white dark:bg-[#151c2b] shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-10 rounded-full bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">drone</span>
+</div>
+<div>
+<h4 class="font-bold text-[#0d121b] dark:text-white text-lg">Drone Survey &amp; Mapping</h4>
+<p class="text-sm text-[#4c669a] dark:text-gray-400 mt-1">Pemetaan area tambang yang cepat dan akurat untuk perhitungan volume (opname).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-1 w-full">
+<div class="relative rounded-2xl overflow-hidden aspect-video shadow-2xl">
+<div class="absolute inset-0 bg-gradient-to-tr from-black/60 to-transparent z-10 pointer-events-none"></div>
+<img alt="Tablet showing mining data analytics overlay on site" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAStOLBah63rV_ytMbztFeibaC5HFAbXiWhXy_F7iRGrHsAOaG7O7rSll0E70abxJ_QTDMW33IhJm1v4DMu-_S1rM_kx-3rnFFC8_DHAi2Q89w7oVz-Gqa5BjA-gcObeF8JLSNYqsmRarmKtVCz0inmH3iZpHQc0xGzJaLUtWVqBdzNNyM315Qb1tHYEUUnYPuHoL9ud5Ezyo3B0i9m-vQejjs7aIGaAZOaGJTFLmUih-j5ivGZP1YTeffBdBJZQvNWIv2icI2-C34"/>
+<div class="absolute bottom-6 left-6 z-20 bg-white/10 backdrop-blur-md p-4 rounded-lg border border-white/20 max-w-xs">
+<p class="text-white font-bold text-lg">Digitalisasi Tambang</p>
+<p class="text-gray-200 text-sm mt-1">Transformasi menuju industri 4.0</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="w-full flex justify-center py-20 bg-primary relative overflow-hidden">
+<!-- Abstract Patterns -->
+<div class="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 right-0 w-96 h-96 bg-black/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
+<div class="w-full max-w-[960px] px-4 md:px-10 text-center relative z-10">
+<h2 class="text-white text-3xl md:text-5xl font-black leading-tight tracking-tight mb-6">
+                    Siap Memulai Proyek Anda?
+                </h2>
+<p class="text-blue-100 text-lg md:text-xl font-normal leading-relaxed mb-10 max-w-2xl mx-auto">
+                    Diskusikan kebutuhan operasional tambang Anda dengan tim kami. Kami siap memberikan penawaran terbaik dengan efisiensi biaya dan standar keselamatan tinggi.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="min-w-[180px] h-14 px-8 bg-white text-primary rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg shadow-blue-900/20">
+                        Hubungi Kami
+                    </button>
+<button class="min-w-[180px] h-14 px-8 bg-transparent border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white/10 transition-colors">
+                        Download Brosur
+                    </button>
+</div>
+</div>
+</div>
+<!-- Footer (Simplified) -->
+<footer class="w-full bg-[#0d121b] text-white py-12 border-t border-gray-800">
+<div class="flex justify-center">
+<div class="w-full max-w-[1280px] px-4 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3">
+<div class="size-6 text-white opacity-80">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-lg font-bold">MiningCorp</span>
+</div>
+<p class="text-gray-500 text-sm">© 2023 MiningCorp. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

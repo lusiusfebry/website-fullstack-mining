@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Proyek Kami - Minerba Kontraktor</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1258e2",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0d121b] dark:text-white overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ebf3] dark:border-b-gray-800 px-10 py-3 bg-white dark:bg-[#1a2130]">
+<div class="flex items-center gap-4 text-[#0d121b] dark:text-white">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined !text-[24px]">engineering</span>
+</div>
+<h2 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Minerba Kontraktor</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Beranda</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Tentang Kami</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Layanan</a>
+<a class="text-primary font-bold text-sm leading-normal" href="#">Proyek</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Kontak</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-blue-700 transition-colors">
+<span class="truncate">Hubungi Kami</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col min-h-screen">
+<!-- Hero Section -->
+<section class="relative flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat min-h-[400px]" data-alt="Large excavators working in an open pit mine at sunset" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAGxG_z2Vg4RxspoVBI6tk_emjsbQSbvkbkinJ-5SxWaN67Evnvu4BQrmuzGClead-NxwrIs5x-utpUXDN8aX4fqJlfcCSjvXaeXvGV-HZirSScROD0ZSAUJSt8MGE3jS8_2Aee57PAz-MLYjYdIVkytAgQScDNZkbnwMy1lehF4KKMJU1r6lYcSrxvLXMAOvAD8DQIZ-7ndwjWIVQY0QWuLg01VAxAL91FZ71Yx0KL4Ly_sVuC6uO4Gg5O3eHCcij1l_JhnAEM2f4");'>
+<div class="layout-content-container flex flex-col max-w-[960px] p-6 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] mb-4 md:text-5xl">
+                    Rekam Jejak &amp; Keunggulan Operasional
+                </h1>
+<h2 class="text-gray-200 text-lg font-normal leading-relaxed max-w-2xl mx-auto">
+                    Portofolio proyek pertambangan yang telah kami selesaikan dengan standar keselamatan dan efisiensi tertinggi di berbagai lokasi strategis Indonesia.
+                </h2>
+</div>
+</section>
+<div class="layout-container flex grow flex-col items-center py-10 px-4 md:px-10 lg:px-40">
+<div class="layout-content-container flex flex-col max-w-[1200px] w-full flex-1">
+<!-- Filters / Chips -->
+<div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
+<h3 class="text-xl font-bold dark:text-white self-start md:self-auto">Semua Proyek</h3>
+<div class="flex gap-2 flex-wrap justify-start md:justify-end">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white pl-5 pr-5 shadow-sm transition-all hover:opacity-90">
+<p class="text-sm font-bold leading-normal">Semua</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-gray-800 border border-[#e7ebf3] dark:border-gray-700 hover:border-primary pl-5 pr-5 transition-all group">
+<p class="text-[#0d121b] dark:text-gray-300 text-sm font-medium leading-normal group-hover:text-primary">Batubara</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-gray-800 border border-[#e7ebf3] dark:border-gray-700 hover:border-primary pl-5 pr-5 transition-all group">
+<p class="text-[#0d121b] dark:text-gray-300 text-sm font-medium leading-normal group-hover:text-primary">Nikel</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-gray-800 border border-[#e7ebf3] dark:border-gray-700 hover:border-primary pl-5 pr-5 transition-all group">
+<p class="text-[#0d121b] dark:text-gray-300 text-sm font-medium leading-normal group-hover:text-primary">Infrastruktur</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-gray-800 border border-[#e7ebf3] dark:border-gray-700 hover:border-primary pl-5 pr-5 transition-all group">
+<p class="text-[#0d121b] dark:text-gray-300 text-sm font-medium leading-normal group-hover:text-primary">Reklamasi</p>
+</button>
+</div>
+</div>
+<!-- Project Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+<!-- Card 1 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-white/90 dark:bg-black/70 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-primary">Completed</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Heavy machinery performing cut and fill operations in a coal mine" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCYXEy4o2PVDCE4x8IxxfEP6dMzomISgSsU5XRI5iLLqyWsum2wNShxVedcEkMf796LD4Jr3jJLRg8rsW5lS_Ad2wu5APDCS7O6EjD-Ec_S20OjpgQ2jp9jKf9n6Os_9xoNIloULJDeJODVXoTIxybRAJpkFCtvSagt74Wqs0w2oPoKv9YBYrZ_IBLOrhzz65n3c_8BXTOBG5C7DveIvHxng8cxd4bjsFpT0537gaxpXRTYnJVYLD45Ulz1NlmvHit2rdNPYoRhz8");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Cut &amp; Fill Tambang Batubara</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Kutai Kartanegara</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2022</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Pengupasan tanah penutup (overburden removal) dengan target volume 5 juta BCM per tahun untuk memaksimalkan akses cadangan batubara.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Ongoing</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Haul road construction site with graders and rollers" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDBiP5ku4HWk6gPP5uUYg-sxHXj9GlT--uPahw6usE0MHJo04M92lVGSuut1V0ob24ZGgkLzFirIk0fA5FVL4piP5OJOjOTdC6boywEC88yMg96hypuwHVTfSUjc3VtMvqsGu94iqh7tKME_lXaxeWTvAFIzrRNkx4wXZGKADVRvUbyLshDRDqfFhK_iFyxSz2VBnWaAZXG7PBPXZkuIW-3drp7UhGIU7A099Eo6tB9UpnV5kEV96WhqcZqF23TBfSAtdCh5pdfVuI");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Konstruksi Jalan Hauling</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Morowali</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2023</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Pembangunan akses jalan tambang sepanjang 45km yang mampu menahan beban alat berat hingga 100 ton.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Ongoing</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Nickel ore extraction site with excavators and trucks" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAr9CDUvcx25_NtjNf8WSZDS0XtxcGDeTd9YSK1jV2uJmUHe2CKplcjyqvYh9jCc-wXB1TLiN__DKfimD3RI1owb0TVmRp0GZJDUTM4hA59QfZEX1IHkjX31ULo_DM_KQnUPLyuapRjtGfkU0EsTc7He2jnOkNFC1Y-wuXVDM-kdfhAmFfEsJFX-DmsTs-0Ss81lxP4pizA0p29S4B8YqRV0hmHWmgHYN7EM7HsIc4_o08B43t8FLe-T8SI6W1wq1RAFJ9x_Hemq4c");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Overburden Removal Nikel</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Halmahera</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2024</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Proyek strategis penambangan nikel laterit dengan implementasi manajemen fleet yang efisien.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-white/90 dark:bg-black/70 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-primary">Completed</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Mining pit management overview from above" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBIr9JNGBOwYIdbNUZDeKIndjxNpbi-TaWkqg0F3UneIjPv3jq_1N8WDq3jPSsXOwKl46blRE_NA9I161mej2iQOiIV6ZugghIilTDesdQVLX2k7O2EwYWg9cQ_yQUTeSHXZurhE7fUj6WC0Dae7_04Ui7L3NTnt-t5AEZv526UVymHw72SaPpq2R5y7P2mzQI2Ua2TfHL2aBmK8nrCd0pVD9Iryc0AfCHEWdl2UheUPeMGCE8EqmZjd2QCS8fQ21_3uHbpJoTH1OM");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Manajemen Pit Site B</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Berau</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2022</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Optimalisasi desain pit dan drainase tambang untuk menjaga produktivitas saat musim hujan.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-white/90 dark:bg-black/70 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-primary">Completed</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Reclaimed mining land with new vegetation growth" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJvBxKww5CrbA2kD7gP91Ny5aDZrom25eL1mFxfX5ywCo7LtPnXqHJEvCxlxT_Sn9I--48l1FUZp9vD4caL7K_sON4V-NY3ifpl9ujGLs7Hk76ohi5sGZY1a-Z3Fb7u_CJVTULPHRLjvftd309FTlZ7btR8yqTQTLGczZD5OhuRMg13PbMUTcmivFm7t0Ir4BzC7xfcrqfMjL-eqWG5wa-rwTVcyrfQCQeIrnD2IJFWKYrsrJzCZZxu_sIO72z7pEj_kpcOqXtxtE");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Proyek Reklamasi Lahan</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Banjarmasin</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2021</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Program revegetasi pasca tambang seluas 50 hektar untuk mengembalikan fungsi ekologis hutan.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="group flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-[#e7ebf3] dark:border-gray-700">
+<div class="relative w-full aspect-video overflow-hidden">
+<div class="absolute top-3 left-3 bg-white/90 dark:bg-black/70 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-primary">Completed</div>
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-105 transition-transform duration-500" data-alt="Mining camp infrastructure with modular buildings" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD9ta0a-luoeDLa2_RmrtfR_xgGVsskKgsNMPkY7VYGzo6Sn9Mym6z0MzpxLrvyYW6FnQW-I6OmoiZp4QPK9bz6JZojqM7oG_f9MGc5FJ3qb3gFztAATwhogccldRg-mBIFRxgZ2WQgVVHeGzikt61jLMJdfC4M5RHN55sKlubaIzoPrcpEhHIPsl3Yel3vKMSlsyjDuKOqZrIe4C46tM5R5Ymn6Bpi0M79qW1sSXhDDt3gjdB1Tyh80caWTFX7qqO32oJui9_u2qQ");'>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-start">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight group-hover:text-primary transition-colors">Infrastruktur Camp</h3>
+</div>
+<div class="flex items-center gap-4 text-[#4c669a] dark:text-gray-400 text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">location_on</span>
+<span>Sumbawa</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined !text-[18px]">calendar_today</span>
+<span>2021</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">Pembangunan fasilitas akomodasi dan kantor lapangan untuk mendukung operasi 500 karyawan.</p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+<a class="inline-flex items-center text-primary text-sm font-bold hover:gap-2 transition-all gap-1" href="#">
+                                    Lihat Detail <span class="material-symbols-outlined !text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="flex items-center justify-center p-4">
+<a class="flex size-10 items-center justify-center text-[#0d121b] dark:text-gray-300 hover:text-primary hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-white rounded-full bg-primary shadow-md" href="#">1</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0d121b] dark:text-gray-300 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" href="#">2</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0d121b] dark:text-gray-300 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" href="#">3</a>
+<a class="flex size-10 items-center justify-center text-[#0d121b] dark:text-gray-300 hover:text-primary hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors" href="#">
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- CTA Section -->
+<section class="bg-[#1a2130] dark:bg-black py-16 px-4 md:px-10">
+<div class="max-w-[960px] mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="flex flex-col gap-3 text-center md:text-left">
+<h2 class="text-white text-3xl font-black leading-tight tracking-[-0.033em]">Siap bermitra untuk efisiensi pertambangan Anda?</h2>
+<p class="text-gray-400 text-lg">Diskusikan kebutuhan proyek Anda dengan tim ahli kami hari ini.</p>
+</div>
+<button class="shrink-0 flex items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-white text-base font-bold leading-normal hover:bg-blue-600 transition-colors shadow-lg shadow-blue-900/20">
+<span class="truncate">Hubungi Tim Kami</span>
+</button>
+</div>
+</section>
+<footer class="bg-white dark:bg-[#151c2a] border-t border-[#e7ebf3] dark:border-gray-800 py-10 px-10">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-[960px] mx-auto text-center md:text-left">
+<div class="flex items-center gap-3 text-[#0d121b] dark:text-white">
+<div class="size-5 text-primary">
+<span class="material-symbols-outlined !text-[20px]">engineering</span>
+</div>
+<span class="text-base font-bold">Minerba Kontraktor</span>
+</div>
+<p class="text-[#4c669a] dark:text-gray-500 text-sm">© 2024 Minerba Kontraktor. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="text-[#4c669a] dark:text-gray-500 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined !text-[20px]">public</span>
+</a>
+<a class="text-[#4c669a] dark:text-gray-500 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined !text-[20px]">mail</span>
+</a>
+</div>
+</div>
+</footer>
+</main>
+</body></html>
